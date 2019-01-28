@@ -1,0 +1,14 @@
+*.pid
+*.csr
+*.crt
+*.key
+id_rsa
+id_rsa.pub
+*__pycache__*
+*.pyc
+.DS_Store
+.HA_VERSION
+.uuid
+.*
+!/.gitignore
+/icloud/*

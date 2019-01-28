@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import requests
-from bs4 import BeautifulSoup
+from calibre_plugins.Bookradar import requests
+from calibre_plugins.Bookradar.bs4 import BeautifulSoup
 
 from calibre import as_unicode
 from calibre.utils.date import parse_only_date
@@ -11,7 +11,7 @@ from calibre.ebooks.metadata.sources.base import Source
 
 class BookradarMetadataSourcePlugin(Source):
 
-    version = (0, 1, 0)
+    version = (0, 1, 1)
 
     author = 'Igor `idle sign` Starikov'
 
